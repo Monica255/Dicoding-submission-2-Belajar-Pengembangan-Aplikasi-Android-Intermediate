@@ -1,0 +1,263 @@
+Skenario Pengujian
+Intermediate Android Dicoding 2nd Submission
+
+===================================================================================
+UNIT TESTING
+===================================================================================
+
+Class-AddViewModelTest
+
+1. when message should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+2. when loading should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+3. verify upload function is working
+-  memastikan fungsi upload bekerja sebagaimana mestinya
+-  setelah melakukan upload, memastikan pesan yang didapat tidak null
+-  memastikan pesan yang didapat sesuai dangan pesan dugaan
+
+Class-DataStoreViewModelTest
+
+1. when getLoginState return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+2. verify saveLoginState function is working
+-  memastikan fungsi saveLoginState bekerja sebagaimana mestinya
+
+3. when getToken return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+4. verify saveToken function is working
+-  memastikan fungsi saveToken bekerja sebagaimana mestinya
+
+5. when getName return the right data and not nul
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+6. verify saveName function is working
+-  memastikan fungsi saveName bekerja sebagaimana mestinya
+
+Class-HomeViewModelTest
+
+1. verify getStory is working and should not return null
+-  memastikan fungsi getStory bekerja sebagaimana mestinya
+-  memastikan data yang didapat tidak null
+-  memastikan jumlah data sesuai dengan yang diharapkan
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+2. when getStory is empty should not return null
+-  memastikan data yang didapat tidak null
+-  memastikan apabila data kosong, data yang didapat kosong (empty)
+
+Class-LoginViewModelTest
+
+1. when login message should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+2. when loading state should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+3. when login should return the right login user data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+4. verify getResponseLogin function is working
+-  memastikan fungsi getResponseLogin bekerja sebagaimana mestinya
+-  memastikan data yang didapat setelah memanggil fungsi ini tidak null
+-  memastikan data yang didapat setelah memanggil fungsi ini sesuai dengan data dugaan
+
+ Class-MapsViewModel
+
+1. when stories should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+-  memastikan jumlah data yang didapat sesuai dengan yang diharapkan
+
+2. when message should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+3. when loading state should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+4. verify getStories function is working
+-  memastikan fungsi getStories bekerja sebagaimana mestinya
+-  memastikan data yang didapat setelah memanggil fungsi ini tidak null
+-  memastikan data yang didapat setelah memanggil fungsi ini sesuai dengan data dugaan
+-  memastikan jumlah data yang didapat setelah memanggil fungsi ini sesuai dengan yang diharapkan
+
+5. verify getStories empty should return empty and not null
+-  memastikan data tidak null
+-  memastikan apabila data kosong, data yang didapat kosong(empty)
+
+Class-RegisterViewModel
+
+1. when message should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+2. when loading state should return the right data and not null
+-  memastikan data yang didapat tidaak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+3. verify getResponseRegister function is working
+-  memastikan fungsi getResponseRegister bekerja sebagaimana mestinya
+-  memastikan message yang didapat setelah memanggil fungsi ini tidak null
+-  memastikan message yang didapat setelah memanggil fungsi ini sesuai dengan message dugaan
+
+Class-StoryRepositoryTest
+
+1. when stories should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengam data dugaan
+-  memastikan jumlah data yang didapat sesuai dengan data dugaan
+
+2. when message should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+3. when loading state should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengam data dugaan
+
+4. when login should return the right login response and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengam data dugaan
+
+5. verify getResponseRegister function is working
+-  memastikan fungsi getResponseRegister bekerja sebagaimana mestinya
+-  memastikan message yang didapat setelah memanggil fungsi ini tidak null
+-  memastikan message yang didapat setelah memanggil fungsi ini sesuai dengan message dugaan
+
+6. verify getResponseRegister function is working
+-  memastikan fungsi getResponseRegister bekerja sebagaimana mestinya
+-  memastikan data yang didapat setelah memanggil fungsi ini tidak null
+-  memastikan data yang didapat setelah memanggil fungsi ini sesuai dengan data dugaan
+
+7. verify getPagingStory function is working and should not null
+-  memastikan fungsi getPagingStory bekerja sebagaimana mestinya
+-  memastikan data yang didapat tidak null
+-  memastikan jumlah data sesuai dengan yang diharapkan
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+8. verify getStories Function is working
+-  memastikan fungsi getStories bekerja sebagaimana mestinya
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+-  memastikan jumlah data sesuai dengan yang diharapkan
+
+9. verify upload function is working
+-  memastikan fungsi upload bekerja sebagaimana mestinya
+-  memastikan message yang didapat setelah memanggil fungsi ini tidak null
+-  memastikan message yang didapat sesuai dengan message dugaan
+
+Class-DateConverterTest
+
+1. when year should return year and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengam data dugaan
+
+2. when month should return month and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengam data dugaan
+
+3. when day should return day and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengam data dugaan
+
+Class-LoactionConverterTest
+
+1. when lat and lng not null, should not return null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+2. when lat and lng null, should return null
+-  memastikan data yang didapat null
+
+3. when address should return the right data and not null
+-  memastikan data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+4. when latlng null, address should not return null
+-  memastikan ketika latlng null, data yang didapat tidak null
+-  memastikan data yang didapat sesuai dengan data dugaan
+
+===================================================================================
+INSTRUMENTATION TESTING
+===================================================================================
+
+Class-RempteKeysDao
+
+1. inputRemoteKeys()
+-  setelah menginput remote keys, memastikan data remote keys tidak null
+-  memastikan data yang didapat sesuai dengan data yang di input sebelumnya
+
+2. deleteRemoteKeys()
+-  setelah menghapus remote keys, memastikan data remote keys null
+
+Class-StoryDaoTest
+
+1. inputStory()
+-  setelah menginput stories, memastikan data stories tidak null
+-  memastikan data yang didapat sesuai dengan data yang diinput sebelumnya
+
+2. deleteAllStories()
+-  setelah menghapus stories, memastikan data stories kosong
+-  setelah menghapus stories, memastikan tidak ada lagi data yang sebelumnya di input 
+
+Class-MapsActivitytest
+
+1. getStories_success
+-  memastikan kelas berhasil menampilkan list stories pada activity
+-  memastikan recyclerView tampil pada activity
+-  memastikan data yang ditampilkan pada recyclerView sesuai
+
+2. getStories_error
+-  memastikan pesan error tampil ketika kelas tidak berhasil menampilkan list stories pada activity
+-  memastikan textView pesan error tampil pada activity
+-  memastikan pesan yang ditampilkan sesuai
+
+===================================================================================
+END-TO-END TESTING
+===================================================================================
+
+Class-HomeActivityTest
+
+1. loadStories()
+-  memastikan kelas berhasil menampilkan list stories pada activity
+-  memastikan recyclerView tampil pada activity
+-  memastikan data yang ditampilkan pada recyclerView sesuai
+
+2. loadDetailStory()
+-  memastikan menuju halaman DetailActivity ketika salah satu story ditekan
+-  memastikan halaman Detail Activity menampilkan photo dan deskripsi
+
+3. loadAddStory()
+-  memastikan menuju halaman AddActivity
+-  memastikan halaman AddActivity menampilkan photo, location dan editText deskripsi
+-  memastikan menuju halaman MapsLocationActivity ketika location ditekan
+-  memastikan fragment map ditampilkan
+-  ketika tombol 'pick place' atau 'use current location' ditekan, memastikan muncul dialog konfirmasi
+-  ketika pilihan 'yes' ditekan, memastikan kembali ke halaman AddActivity
+
+4. loadMaps()
+-  membuka menu items
+-  memastikan menuju halaman MapsActivity ketika 'menu see on map' ditekan
+-  memastikan kelas berhasil menampilkan list stories pada activity
+-  memastikan recyclerView tampil pada activity
+-  memastikan fragment map ditampilkan
+-  memastikan seluruh floating button tidak error ketika ditekan
+
+5. dialogLogout()
+-  membuka menu items
+-  memastikan terdapat pilihan logout
+-  ketika pilihan logout ditekan, memastikan muncul dialog konfirmasi
